@@ -5,7 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    padding: 68px 0 48px;
+    padding: 55px 0 48px;
 }
 h1,h2,h3{
     margin-bottom: 8px;
@@ -14,7 +14,6 @@ p{
     margin-bottom: 16px;
 }
 
-
 .carousel-img{
     width: 100%;
     height: 510px;
@@ -22,7 +21,7 @@ p{
 }
 .carousel-caption{
     padding: 20px 0;
-    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.7);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.9);
 }
 .carousel-caption h1{
     font-size: 40px;
@@ -31,7 +30,7 @@ p{
     font-size: 20px;
     margin-bottom: 20px;
 }
-.btn{
+.carousel-item .btn{
     margin-bottom: 20px;
     font-size: 20px;
 }
@@ -106,4 +105,46 @@ hr{
 }
 .footer p{
     font-size: 16px;
+}
+
+
+
+@media (max-width: 990px){
+    .featurette-heading{
+        margin-top: 40px;
+        font-size: 38px;
+    }
+}
+@media (min-width: 576px){
+    .container{
+        min-width: 540px;
+    }
+    .carousel-img{
+        height: 350px;
+    }
+    .carousel-caption{
+        padding: 10px 0;
+    }
+    .carousel-caption h1{
+        font-size: 28px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .carousel-item .btn{
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+    .featurette-heading{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .text-grey{
+        font-size: 30px;
+    }
+    .featurette-image{
+        width: 100%;
+        height: 300px;
+    }
 }
